@@ -1,5 +1,10 @@
-/* Sorts the variable $list_to_sort and prints the sorted list in the debug output */
+// 103-sort_strings.scss
 
-@import '103-sort_list';
+$list_to_sort: john anna zoe kim felicia carrie;
 
-@debug $list_to_sort;
+// Sort the list
+$list_sorted: sort($list_to_sort);
+
+// Print the sorted list in the debug output
+@debug $list_sorted;
+
